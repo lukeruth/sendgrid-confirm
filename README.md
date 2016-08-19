@@ -1,3 +1,3 @@
 # fundrise-soundboard
 
-How to load unpacked extensions --> https://developer.chrome.com/extensions/getstarted#unpacked
+Because SendGrid's marketing UI doesn't have a confirmation dialog

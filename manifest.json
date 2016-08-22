@@ -2,15 +2,14 @@
 	"manifest_version": 2,
 
 	"name": "SendGrid Confirm",
-	"description": "Fixing something that shouldn't be broken.",
+	"description": "To make sure you don't accidentally send marketing emails from SendGrid.",
 	"version": "1.0",
 	"permissions": [
 		"activeTab"
 	],
 	"browser_action": {
-		"default_title": "Confirm Send in SendGrid",
-		"default_icon": "images/warning-logo.png",
-		"default_popup": "popup.html"
+		"default_title": "Send Confirmation in SendGrid",
+		"default_icon": "images/warning-logo.png"
 	},
 	"content_scripts": [{
 		"matches": ["https://sendgrid.com/marketing_campaigns/campaigns/*/edit"],
